@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veteran.Data", "Veteran.Data\Veteran.Data.csproj", "{3A7886CA-77F6-4A66-8042-0C102B16CD81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeteranFunctionApp", "VeteranFunctionApp\VeteranFunctionApp.csproj", "{236EB450-FC50-4EA4-BC28-3F821F62B1FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VeteranFunctionApp", "VeteranFunctionApp\VeteranFunctionApp.csproj", "{C26A56B0-228A-4DA8-84AA-67E27E28B641}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{3A7886CA-77F6-4A66-8042-0C102B16CD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A7886CA-77F6-4A66-8042-0C102B16CD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A7886CA-77F6-4A66-8042-0C102B16CD81}.Release|Any CPU.Build.0 = Release|Any CPU
-		{236EB450-FC50-4EA4-BC28-3F821F62B1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{236EB450-FC50-4EA4-BC28-3F821F62B1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{236EB450-FC50-4EA4-BC28-3F821F62B1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{236EB450-FC50-4EA4-BC28-3F821F62B1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26A56B0-228A-4DA8-84AA-67E27E28B641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26A56B0-228A-4DA8-84AA-67E27E28B641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26A56B0-228A-4DA8-84AA-67E27E28B641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26A56B0-228A-4DA8-84AA-67E27E28B641}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

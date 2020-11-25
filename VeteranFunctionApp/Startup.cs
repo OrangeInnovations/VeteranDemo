@@ -13,6 +13,7 @@ namespace VeteranFunctionApp
         {
             builder.Services.AddHttpClient();
 
+            builder.Services.RegisterServices();
             //builder.Services.AddSingleton<IMyService>((s) => {
             //    return new MyService();
             //});
