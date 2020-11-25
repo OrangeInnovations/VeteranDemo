@@ -40,7 +40,8 @@
 
         public override int GetHashCode()
         {
-            throw new NotImplementedException();
+            return MbrPersGenKey.GetHashCode() ^ SdrPeronsId.GetHashCode()
+                ^ vet_crm.GetHashCode() ^ non_vet_crm.GetHashCode() ^ va_health_crm.GetHashCode();
         }
     }
 }
