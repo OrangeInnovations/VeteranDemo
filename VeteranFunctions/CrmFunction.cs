@@ -11,7 +11,7 @@ namespace VeteranFunctions
     public  class CrmFunction
     {
         [FunctionName("crmaggregation")]
-        public async Task Run([BlobTrigger("source/{name}", Connection = "AzureWebJobsStorage")]Stream myBlob, string name, ILogger log)
+        public async Task Run([BlobTrigger("source/{name}", Connection = "storageconnection")]Stream myBlob, string name, ILogger log)
         {
             Crm crm = new Crm();
 
