@@ -1,7 +1,7 @@
 ﻿using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace VeteranFunctions
+namespace VeteranFunctionApps
 {
     public static class Registration
     {

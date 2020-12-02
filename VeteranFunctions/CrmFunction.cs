@@ -6,10 +6,10 @@ using Microsoft.Extensions.Logging;
 
 namespace VeteranFunctions
 {
-    public static class Function1
+    public  class CrmFunction
     {
-        [FunctionName("Function1")]
-        public static void Run([BlobTrigger("source/{name}", Connection = "AzureWebJobsStorage")]Stream myBlob, string name, ILogger log)
+        [FunctionName("crmaggregation")]
+        public void Run([BlobTrigger("source/{name}", Connection = "AzureWebJobsStorage")]Stream myBlob, string name, ILogger log)
         {
             log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
         }

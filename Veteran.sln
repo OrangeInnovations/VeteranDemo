@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VeteranFunctionApp", "Veter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeteranFunctions", "VeteranFunctions\VeteranFunctions.csproj", "{5E384675-E314-4522-9DF2-56D690C55152}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeteranFunctionApps", "VeteranFunctionApps\VeteranFunctionApps.csproj", "{6904C646-A126-4F39-8AF5-3A62F1C95BA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5E384675-E314-4522-9DF2-56D690C55152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E384675-E314-4522-9DF2-56D690C55152}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E384675-E314-4522-9DF2-56D690C55152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6904C646-A126-4F39-8AF5-3A62F1C95BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6904C646-A126-4F39-8AF5-3A62F1C95BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6904C646-A126-4F39-8AF5-3A62F1C95BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6904C646-A126-4F39-8AF5-3A62F1C95BA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
