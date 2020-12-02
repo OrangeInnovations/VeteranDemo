@@ -11,14 +11,8 @@ namespace VeteranFunctions
     {
         public override void Configure(IFunctionsHostBuilder builder)
         {
-            builder.Services.AddHttpClient();
 
             builder.Services.RegisterServices();
-            //builder.Services.AddSingleton<IMyService>((s) => {
-            //    return new MyService();
-            //});
-
-            //builder.Services.AddSingleton<ILoggerProvider, MyLoggerProvider>();
         }
     }
 }

@@ -7,7 +7,7 @@ namespace VeteranFunctions
     {
         public static void RegisterServices(this IServiceCollection services)
         {
-
+            services.AddHttpClient();
         }
     }
 }
