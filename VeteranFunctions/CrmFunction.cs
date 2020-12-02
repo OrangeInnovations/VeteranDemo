@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Threading.Tasks;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
 using Microsoft.Extensions.Logging;
@@ -10,7 +11,7 @@ namespace VeteranFunctions
     public  class CrmFunction
     {
         [FunctionName("crmaggregation")]
-        public void Run([BlobTrigger("source/{name}", Connection = "storageconnection")]Stream myBlob, string name, ILogger log)
+        public async Task Run([BlobTrigger("source/{name}", Connection = "AzureWebJobsStorage")]Stream myBlob, string name, ILogger log)
         {
             Crm crm = new Crm();
 
