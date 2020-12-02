@@ -7,19 +7,5 @@
         "isEnabled": true
       }
     }
-  },
-  "bindings": [
-    {
-      "type": "httpTrigger",
-      "name": "req",
-      "direction": "in",
-      "methods": [ "get" ],
-      "route": "veteran/{category:alpha}/{id:int?}"
-    },
-    {
-      "type": "http",
-      "name": "res",
-      "direction": "out"
-    }
-  ]
+  }
 }
