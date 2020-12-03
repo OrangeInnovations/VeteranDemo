@@ -6,6 +6,28 @@
       "samplingSettings": {
         "isEnabled": true
       }
+    },
+    "fileLoggingMode": "always",
+    "logLevel": {
+      "default": "Information",
+      "Host.Results": "Information",
+      "Function": "Information",
+      "Host.Aggregator": "Trace"
     }
+  },
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "storageconnection": "DefaultEndpointsProtocol=https;AccountName=veterantest;AccountKey=4uNgeYtK+1O1dyfD9w/1KxG49odCSSr6EDK8mKE/Xfuzb+v4Gb7vEdMYQp8xvQZjmyhuWpyvwvAidymHQdn+Ng==;BlobEndpoint=https://veterantest.blob.core.windows.net/;QueueEndpoint=https://veterantest.queue.core.windows.net/;TableEndpoint=https://veterantest.table.core.windows.net/;FileEndpoint=https://veterantest.file.core.windows.net/;"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*",
+    "CORSCredentials": false
+  },
+  "ConnectionStrings": {
+    "storageconnection": "DefaultEndpointsProtocol=https;AccountName=veterantest;AccountKey=4uNgeYtK+1O1dyfD9w/1KxG49odCSSr6EDK8mKE/Xfuzb+v4Gb7vEdMYQp8xvQZjmyhuWpyvwvAidymHQdn+Ng==;BlobEndpoint=https://veterantest.blob.core.windows.net/;QueueEndpoint=https://veterantest.queue.core.windows.net/;TableEndpoint=https://veterantest.table.core.windows.net/;FileEndpoint=https://veterantest.file.core.windows.net/;",
+    "SQLConnectionString": "<sqlclient-connection-string>"
   }
 }
