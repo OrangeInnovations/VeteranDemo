@@ -15,7 +15,8 @@ namespace VeteranFunctions
         {
             Crm crm = new Crm();
 
-            log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
+            log.LogInformation($"Log information C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
+            log.LogTrace($"Log trace C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
 
         }
     }
