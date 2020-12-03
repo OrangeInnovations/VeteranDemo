@@ -18,6 +18,9 @@ namespace VeteranFunctions
             log.LogInformation($"Log information C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
             log.LogTrace($"Log trace C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
 
+            StreamReader reader = new StreamReader(myBlob);
+            var lines=reader.ReadToEnd();
+
         }
     }
 }
