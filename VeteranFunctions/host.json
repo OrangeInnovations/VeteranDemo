@@ -22,7 +22,9 @@
     "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=veteranstore;AccountKey=pQKooSHckNj5ZeC84J+9wC6o+xAaybmD5llP60VRRdHIRd3Q536QJ+V6Oht5tr6+cZfEnPHUU9n6vOkP0jPgjA==;EndpointSuffix=core.windows.net",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
     "storageconnection": "DefaultEndpointsProtocol=https;AccountName=veterantest;AccountKey=4uNgeYtK+1O1dyfD9w/1KxG49odCSSr6EDK8mKE/Xfuzb+v4Gb7vEdMYQp8xvQZjmyhuWpyvwvAidymHQdn+Ng==;EndpointSuffix=core.windows.net",
-    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=veteranstore;AccountKey=pQKooSHckNj5ZeC84J+9wC6o+xAaybmD5llP60VRRdHIRd3Q536QJ+V6Oht5tr6+cZfEnPHUU9n6vOkP0jPgjA==;EndpointSuffix=core.windows.net"
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=veteranstore;AccountKey=pQKooSHckNj5ZeC84J+9wC6o+xAaybmD5llP60VRRdHIRd3Q536QJ+V6Oht5tr6+cZfEnPHUU9n6vOkP0jPgjA==;EndpointSuffix=core.windows.net",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "58f00ca0-e1c9-43e0-8a5a-42def3d89189",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=58f00ca0-e1c9-43e0-8a5a-42def3d89189;IngestionEndpoint=https://centralus-0.in.applicationinsights.azure.com/"
   },
   "Host": {
     "LocalHttpPort": 7071,
